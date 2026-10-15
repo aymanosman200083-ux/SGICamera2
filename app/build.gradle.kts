@@ -10,8 +10,8 @@ android {
         applicationId = "com.sgi.camera"
         minSdk = 26
         targetSdk = 35
-        versionCode = 4
-        versionName = "4.0"
+        versionCode = 5
+        versionName = "5.0"
     }
     buildFeatures { viewBinding = false }
     compileOptions {
@@ -31,6 +31,6 @@ dependencies {
     implementation("androidx.camera:camera-camera2:$camerax")
     implementation("androidx.camera:camera-lifecycle:$camerax")
     implementation("androidx.camera:camera-view:$camerax")
-}
     implementation("androidx.camera:camera-video:$camerax")
     implementation("androidx.camera:camera-extensions:$camerax")
+}
